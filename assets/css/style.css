@@ -1,13 +1,8 @@
-
-.topNav {
-  color:black;
-  background: white;
-  margin-left: 50px;
-  margin-right: 50px;
+body {
+  background-color: #dddddd;
 }
 
-#SamText {
-  display: inline-block;
+h1 {
   margin-left: 150px;
   padding: 15px;
   background-color:#4aaaa5;
@@ -16,43 +11,53 @@
   text-decoration: none;
   font-size: 18px;
   font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-#menuOptions {
-  float: right;
-  margin-right: 150px;
-  padding: 15px;
-  color: turquoise;
-  overflow: hidden;
-  text-decoration: none;
-  vertical-align: middle;
-  font-size: 18px;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 150px;
-  margin-right: 150px;
-  display: inline;
-  overflow: auto;
-}
-
-#SamHeadshot {
-  height: 10px;
-  width: 10px;
-  margin: 10px;
-}
-
-body {
-  background-color: #dddddd;
-}
-
-.Content {
-  width: 960px;
-  background-color: white;
+  float: left;
   clear: both;
-  box-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #4aaaa5;
+  padding: 15px;
+}
+
+p {
+  display: block;
+  font-size: 16px;
+  color: #777777;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+hr {
+  background-color: #4aaaa5;
+  margin: 15px;
+}
+
+
+img {
+  height: 250px;
+  border-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  clear: both;
+}
+
+.topNav {
+  background-color: #ffffff;
+  display: inline;
+  clear: both;
+}
+
+.MainContent {
+  width: 960px;
+  margin-left:150px;
+  padding: 15px;
+  background-color: white;
+  border-color: #dddddd;
+  clear: both;
+  display: block;
 }
 
 .Footer {
@@ -62,3 +67,18 @@ body {
   height: 50px;
   border-color: #4aaaa5;
 }
+
+#menuOptions {
+  float: right;
+  margin-right: 150px;
+  padding: 15px;
+  color: white;
+  overflow: hidden;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 18px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
