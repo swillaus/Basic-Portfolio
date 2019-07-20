@@ -2,46 +2,50 @@
 <html>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sam's Portfolio</title>
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sam's Portfolio</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <!--Create Header Section--> 
+  <!--Create Header Section-->
   <div class="topNav">
-        <div>
-          <h1>Sam Will</h1>
-        </div>
-        <div id="menuOptions">
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-        </div>
+    <div>
+      <h1>Sam Will</h1>
     </div>
+    <div class="menuOptions">
+      <a href="index.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
 
-<div class="MainContent">
-    <h2>Contact</h2>
-    <hr>
-    <form class="formSection">
+  <div class="MainContent">
+    <div>
+      <h2>Contact</h2>
+      <hr>
+      <form class="formSection">
         Name:<br>
         <input type="text" name="firstname" value="John Smith">
         <br>
         Email:<br>
-        <input type="text" name="lastname" value="example@email.com" width= 85px height="20px">
+        <input type="text" name="lastname" value="example@email.com">
         <br>
         Message:<br>
-        <input type="text" name="lastname" value="Input Message">
+        <input type="text" name="lastname" id="Longtext">
         <br>
         <input type="submit" value="Submit">
-    </form> 
-</div>
-         
-<!--Build out footer section--> 
-<div class="Footer">
-  <p id="footerText"> Copyright @</p> 
-</div>
+      </form>
+    </div>
+  </div>
+
+  <!--Build out footer section-->
+  <div class="Footer">
+    <p id="footerText"> Copyright @</p>
+  </div>
 
 </body>
+
 </html>

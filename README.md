@@ -1,9 +1,8 @@
 # Basic-Portfolio
 Sam Will's homework 
 
-Still unresolved:
-- White background on header
-- Hyperlink on menu options
-- Footer colour white
-- Images not referencing to ID
-- Styling on form text
+Unable to resolve
+- Getting the green border on the footer
+- Having the image name go accross the images on the 'Portfolio' page
+- Having a vertical line between the menu options at the top
+- Fixing footer to the bottom of the screen  
